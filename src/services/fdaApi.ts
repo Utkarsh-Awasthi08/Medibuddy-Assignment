@@ -9,7 +9,7 @@ export const searchMedicines = async (
 
   url.searchParams.set(
     "search",
-    query
+    `openfda.brand_name:${query}`
   );
 
   url.searchParams.set("limit", "20");
