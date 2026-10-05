@@ -137,12 +137,6 @@
     border-color 0.2s ease;
 }
 
-.medicine-card:hover {
-  transform: translateY(-2px);
-  border-color: #bfdbfe;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-}
-
 .medicine-card h2 {
   margin: 0 0 16px;
   font-size: 20px;
