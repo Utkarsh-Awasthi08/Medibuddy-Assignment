@@ -23,7 +23,7 @@ function SearchBar({
         onChange={(event) => onChange(event.target.value)}
       />
 
-      <button type="submit">Search</button>
+      <button type="submit" style={{marginLeft: "5px"}}>Search</button>
     </form>
   );
 }
