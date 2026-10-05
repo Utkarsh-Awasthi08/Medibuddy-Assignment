@@ -123,8 +123,6 @@
   gap: 20px;
 }
 
-/* Medicine cards */
-
 .medicine-card {
   background: #ffffff;
   border: 2px solid black;
@@ -201,13 +199,7 @@
   animation: spin 0.8s linear infinite;
 }
 
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-/* Detail page */
 
 .detail-card {
   max-width: 800px;
@@ -253,52 +245,3 @@
   line-height: 1.6;
 }
 
-/* Mobile */
-
-@media (max-width: 700px) {
-  .container {
-    padding: 28px 16px;
-  }
-
-  .header {
-    margin-bottom: 24px;
-  }
-
-  .header h1 {
-    font-size: 34px;
-  }
-
-  .header p {
-    font-size: 14px;
-  }
-
-  .search-wrapper {
-    flex-direction: column;
-    margin-bottom: 28px;
-  }
-
-  .search-button {
-    width: 100%;
-  }
-
-  .medicine-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .results-header {
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .results-header h2 {
-    font-size: 20px;
-  }
-
-  .medicine-card {
-    padding: 17px;
-  }
-
-  .detail-card {
-    padding: 20px;
-  }
-}
